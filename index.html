@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Teja Nithin Gogineni</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to My Portfolio</h2>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm a Master's student at Sacred Heart University, focusing on Computer Science and IT. This portfolio highlights my academic and professional journey through various projects and achievements. Dive in to see how my skills in coding, data analysis, and cybersecurity can add value to your next big project!"</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>My Projects</h2>
+        <div class="portfolio-grid">
+            <div class="project">
+              <h3>PERMISSION MANAGEMENT SYSTEM</h3>
+                <p>The permission management system takes all the permissions online. There are three
+kinds of designations assigned-Employee, Leader and Manager. If the leader accepts and
+Manager rejects it the the permission will be showed as rejected. If leader and manager
+accept then the status will be accepted. If leader rejects and manager accepts then the
+status will be accepted as manager has final say. These statuses will be displayed on the
+dash board of the employee.</p>
+            </div>
+            <div class="project">
+              <h3>QUANTIFYING BLOCK CHAIN IMMUTABIITY OVERTIME</h3>
+                <p>Immutability is a term used a lot in block chain and crypto currency development when
+attempting to analyze the economic interpretation of a network. Designs like the
+21million Bitcoin supply in BTC or incidents like the DAO fork bailout that split the
+Ethereum of community into ETH and ETC are major examples of immutability values
+determining the ethos of a chain. This research sets out to categorize different features of
+blockchain immutability and analyze them in three different networks: Bit coin (BTC),
+Ethereum (ETH), and Ethereum Classic (ETC). Further in the paper, the Finney Ratio is
+introduced to help understand how block chain immutability can be measured overtime.
+The paper then visualizes overall blockchain immutability over time using radar charts as
+an immutability map. The Szabo Score is then introduced as a tool to score over all
+Immutability over time for each block chain.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+</body>
+</html>
