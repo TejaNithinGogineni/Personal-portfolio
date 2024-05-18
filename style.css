@@ -39,6 +39,10 @@ nav ul li a:hover {
 }
 
 /* About Section Styles */
+#home{
+    text-align: center;
+}
+
 #about {
     padding: 20px;
     text-align: center;
